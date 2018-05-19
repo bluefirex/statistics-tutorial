@@ -11,6 +11,12 @@ Statistik ist so ein trockenes Fach. Man schleppt sich von Vorlesung zu Vorlesun
 
 Es muss aber nicht so trocken sein! Warum nicht einfach mal visuell darstellen, welche Zusammenhänge z.B. der Z-Transformation und 95% aller Werte liegt? Oder was passiert, wenn man Werte verschiebt?
 
+::: warning Hinweis
+Dieses Tutorial entsteht gerade. Verbesserungen und Ergänzungen sind gerne erwünscht!
+:::
+
+<br />
+
 ## Wo geht's los?
 
 Klicke einfach auf den großen Button oben.
