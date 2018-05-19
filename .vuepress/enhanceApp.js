@@ -1,4 +1,4 @@
-import Chart from 'vue2-frappe'
+import Chart from 'frappe-charts/dist/frappe-charts.min.esm'
 import {Tabs, Tab} from 'vue-tabs-component'
 import VueSlider from 'vue-slider-component'
 
