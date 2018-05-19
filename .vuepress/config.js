@@ -23,6 +23,11 @@ module.exports = {
 			{
 				text: 'Startseite',
 				link: '/'
+			},
+
+			{
+				text: 'Aufgaben + Lösungen',
+				link: '/aufgaben/'
 			}
 		],
 
