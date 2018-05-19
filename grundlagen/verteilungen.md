@@ -33,3 +33,22 @@ $$
 ### Visualisierung
 
 <illustration-normal-distribution />
+
+## Binomialverteilung
+
+$$
+    \mathcal{B}(n, p)
+$$
+
+| Eigenschaften         | |
+|-------------          |-|
+| Träger                | $k \in \{0, ..., n\}$         |
+| Erwartungswert $E(X)$ | $np$                          |
+| Median                | $\lfloor np \rfloor \leq m \leq \lceil (n + 1) p \rceil$     |
+| Modus                 | $\lfloor (n + 1) p \rfloor$ oder $\lfloor (n + 1) p - 1 \rfloor$                          |
+| Varianz               | $np(1 - p)$                    |
+
+
+### Visualisierung
+
+`TOOD, evtl was mit dem Pascalschen Dreieck`
