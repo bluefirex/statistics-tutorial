@@ -7,17 +7,22 @@
 		</div>
 
 		<div class="controls">
-			<div class="control">
-				<math ref="n">n = {{ size }}</math>
+			<div class="control slider">
+				<vue-slider v-if="showControls" piecewise :process-style="{ backgroundColor: '#056dd2' }" width="100%"
+				            :min="1" :max="10" v-model="size_custom" v-on:input="generateDataset(size_custom)">
 
-				<input v-if="showControls"
-				       type="range" min="1" max="10" v-model="size_custom" v-on:input="generateDataset(size_custom)" />
+				            <template slot="tooltip" slot-scope="{ value }">
+				            	<math ref="n">n = {{ size }}</math>
+				            </template>
+				</vue-slider>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
+	import VueSlider from 'vue-slider-component'
+
 	export default {
 		props: {
 			values: {
@@ -35,6 +40,10 @@
 				required: false,
 				default: false
 			}
+		},
+
+		components: {
+			VueSlider
 		},
 
 		data() {
@@ -199,9 +208,15 @@
 					vertical-align: middle;
 				}
 
-				input {
+				input, .vue-slider-component {
+					display: inline-block;
+
 					vertical-align: middle;
 					margin-top: -1px;
+				}
+
+				&.slider {
+					padding-top: 36px;
 				}
 			}
 		}
