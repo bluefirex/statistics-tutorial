@@ -26,7 +26,7 @@ module.exports = {
 			}
 		],
 
-		sidebarDepth: 3,
+		sidebarDepth: 2,
 
 		sidebar: {
 			'/': [
@@ -35,6 +35,7 @@ module.exports = {
 					collapsable: true,
 					children: [
 						'/grundlagen/lageparameter',
+						'/grundlagen/zufallsvariablen',
 						'/grundlagen/verteilungen',
 					]
 				}
