@@ -6,6 +6,10 @@ module.exports = {
 	port: '3100',
 	dest: 'docs',
 
+	head: [
+		['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }]
+	],
+
 	themeConfig: {
 		lastUpdated: 'Zuletzt aktualisiert',
 
@@ -35,6 +39,12 @@ module.exports = {
 					]
 				}
 			]
+		}
+	},
+
+	markdown: {
+		config: (md) => {
+			md.use(require('markdown-it-katex'))
 		}
 	}
 }
