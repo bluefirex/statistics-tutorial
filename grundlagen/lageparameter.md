@@ -22,10 +22,10 @@ Das arithmetische Mittel, auch *Mittelwert* genannt, ist der durchschnittliche W
 ### Formel
 
 $$
-    \bar{x} = \frac{x_{0}, x_{1}, ..., x_{i}}{n} = \frac{1}{n} \sum^{n}_{i=1}x_{i}
+    \bar{x} = \frac{x_{1}, x_{2}, ..., x_{i}}{n} = \frac{1}{n} \sum^{n}_{i=1}x_{i}
 $$
 
-- $x_{i}$ ist der Wert $i$-te der Merkmalsausprägung
+- $x_{i}$ ist der $i$-te Wert der Merkmalsausprägung
 - $n$ ist die Größe der Stichprobe
 
 <br />
@@ -40,14 +40,19 @@ $$
 - $F_{i}$ ist die $i$-te absolute Häufigkeit
 - $n$ ist die Größe der Stichprobe
 
-`TODO: Add illustration`
+<illustration-average />
 
 ## Modus
 
 Der Modus ist Wert, der am häufigsten in der Stichprobe auftritt. Dies können auch mehrere Werte sein. **Der Modus ist also nicht zwingend eindeutig.**
 
-`TODO: Add illustration`
+**Formelsymbol: $\bar{x}_{M}$**
+
+::: tip Beispiel
+Für $\{1, 2, 2, 3\}$ wäre der Modus also 2.<br />
+Für $\{1, 1, 2, 2\}$ wäre der Modus also 1 und 2.
+:::
 
 ## Beispiel
 
-`TODO: Add interactive example`
+<example-location-parameters />
