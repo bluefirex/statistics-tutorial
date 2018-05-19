@@ -40,6 +40,7 @@ module.exports = {
 					collapsable: true,
 					children: [
 						'/grundlagen/lageparameter',
+						'/grundlagen/streuungsparameter',
 						'/grundlagen/zufallsvariablen',
 						'/grundlagen/verteilungen',
 					]
