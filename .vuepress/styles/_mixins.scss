@@ -1,0 +1,178 @@
+// Basic mixins first
+@mixin mp0 {
+	margin: 0;
+	padding: 0;
+}
+
+@mixin ulreset {
+	@include mp0;
+	list-style-type: none;
+}
+
+@mixin border-box {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin vertical-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	@include transform(translateX(-50%) translateY(-50%));
+}
+
+@mixin unselectable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+@mixin ellipsis {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@mixin reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background: none;
+	border: 0;
+	box-shadow: none;
+}
+
+@mixin card {
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.08), 0px 2px 10px rgba(0, 0, 0, 0.06);
+	background: #fff;
+	border: 0;
+	border-radius: 3px;
+}
+
+@mixin box {
+	@include box-shadow;
+
+	border-radius: 3px;
+	background: #fff;
+}
+
+@mixin box-shadow {
+	box-shadow: 0px 12px 24px rgba(#000, 0.04);
+}
+
+@mixin box-dark {
+	@include box-shadow;
+
+	border-radius: 3px;
+	background: darken(color(dark-background), 6%);
+	color: #fff;
+}
+
+@mixin box-elevated {
+	@include box-elevated-shadow;
+
+	border-radius: 3px;
+	background: #fff;
+}
+
+@mixin box-elevated-shadow {
+	box-shadow: 0px 12px 24px rgba(#000, 0.09),
+				0px 20px 26px rgba(#000, 0.06);
+}
+
+@mixin box-dark-elevated {
+	@include box-elevated-shadow;
+
+	border-radius: 3px;
+	background: darken(color(dark-background), 6%);
+	color: #fff;
+}
+
+@mixin basic-grid($columns: auto, $rows: auto, $gap: auto) {
+	display: grid;
+	grid-template-columns: $columns;
+	grid-template-rows: $rows;
+	grid-gap: $gap;
+
+	// Fix for grids being ($n - 1) * $gap too wide
+	@if type-of($columns) == "list" and $gap != "auto" {
+		$columns-num: length($columns);
+		width: calc(100% - #{$columns-num - 1} * #{$gap});
+	}
+}
+
+@mixin avatar($size) {
+	width: $size;
+	height: $size;
+
+	border-radius: 100%;
+
+	img {
+		width: $size;
+		height: $size;
+
+		object-fit: cover;
+		object-position: center;
+
+		border-radius: 100%;
+	}
+}
+
+@mixin svg {
+	svg,
+	svg path,
+	svg polygon,
+	svg rect,
+	svg circle {
+		@content;
+	}
+}
+
+@mixin svg-path($include-parent: false) {
+	path,
+	polygon,
+	rect,
+	circle {
+		@content;
+	}
+
+	@if $include-parent {
+		& {
+			@content;
+		}
+	}
+}
+
+@mixin media($type, $direction: min) {
+	@if $type == mobile or $type == phone or $type == tablet {
+		@media screen and (max-width: 600px) {
+			@content;
+		}
+	} @else if $type == sidebar-breakpoint {
+		@if $direction == min {
+			@media screen and (min-width: 800px) {
+				@content;
+			}
+		} @else {
+			@media screen and (max-width: 800px) {
+				@content;
+			}
+		}
+	} @else {
+		@media screen and (min-width: 601px) {
+			@content;
+		}
+	}
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder           {@content}
+	&::-moz-placeholder          {@content}
+	&:-ms-input-placeholder      {@content}
+}

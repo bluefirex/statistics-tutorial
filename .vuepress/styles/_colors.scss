@@ -1,0 +1,99 @@
+$genericColors: (
+	accent: #056dd2,
+	blue: #056dd2,
+	red: #F44336,
+	pink: #E91E63,
+	indigo: #3F51B5,
+	purple: #9C27B0,
+	deep-purple: #673AB7,
+	cyan: #00BCD4,
+	teal: #009688,
+	green: #4CAF50,
+	lime: #CDDC39,
+	yellow: #FFEB3B,
+	amber: #FFC107,
+	orange: #FB8C00,
+	deep-orange: #FF5722,
+	brown: #795548,
+	grey: #9E9E9E,
+	dark-grey: #5a5a5a,
+	light-grey: #999,
+	light-grey-blue: #525B66,
+	blue-grey: #607D8B,
+	black: #000,
+	white: #fff,
+	dark: #222C38
+);
+
+$backgroundColors: (
+	blue-background: mix(map-get($genericColors, blue), #fff, 4%)
+);
+
+$borderColors: (
+	blue-border: mix(mix(map-get($genericColors, blue), #000, 90%), #fff, 26%)
+);
+
+$componentColors: (
+	dark-background: #222C38,
+	light-background: #F0F2F5,
+	border: #dddee0,
+	dark-border: #1c252e,
+	text: #222c38
+);
+
+$allColors: map-merge(map-merge(map-merge($genericColors, $componentColors), $backgroundColors), $borderColors);
+
+@function color($name) {
+	@if map-has-key(getAllColors(), $name) {
+		@return map-get(getAllColors(), $name);
+	} @else {
+		@warn "Color not found: #{$name}";
+		@return #000;
+	}
+}
+
+@function getAllColors() {
+	@return $allColors;
+}
+
+@function getGenericColors() {
+	@return $genericColors;
+}
+
+@function getComponentColors() {
+	@return $componentColors;
+}
+
+@function color-set($map, $key, $value) {
+	@return map-merge($map, ($key: $value));
+}
+
+$red-magic-number: 241;
+$green-magic-number: 691;
+$blue-magic-number: 68;
+$brightness-divisor: $red-magic-number + $green-magic-number + $blue-magic-number;
+
+@function brightness($color) {
+	// Extract color components
+	$red-component: red($color);
+	$green-component: green($color);
+	$blue-component: blue($color);
+
+	// Calculate a brightness value in 3d color space between 0 and 255
+	$number: sqrt((($red-component * $red-component * $red-magic-number) + ($green-component * $green-component * $green-magic-number) + ($blue-component * $blue-component * $blue-magic-number)) / $brightness-divisor);
+
+	// Convert to percentage and return
+	@return 100% * $number / 255;
+}
+
+@function sqrt($r) {
+	$x0: 1;
+	$x1: $x0;
+
+	@for $i from 1 through 10 {
+		$x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0);
+		$x0: $x1;
+	}
+
+	@return $x1;
+}
