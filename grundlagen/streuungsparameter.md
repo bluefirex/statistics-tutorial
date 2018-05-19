@@ -57,3 +57,11 @@ $$
 ## Quantile
 
 `TODO`
+
+## Kovarianz
+
+`TODO`
+
+## Korrelation
+
+`TOOD`
