@@ -10,6 +10,14 @@ body {
 	// letter-spacing: 0.02rem;
 }
 
+h2 {
+	font-family: BrownStd, $uiFont;
+	font-weight: 500 !important;
+	
+	font-size: 1.8rem !important;
+	letter-spacing: -1px;
+}
+
 h1 {
 	font-weight: 700 !important;
 	font-size: 2.6rem !important;
@@ -32,9 +40,13 @@ h1 {
 	}
 }
 
+.component + h2 {
+	margin-top: 24px !important;
+}
+
 p + h2,
 p + h3 {
-	margin-top: 56px;
+	margin-top: 64px;
 }
 
 .home .hero + .content {
@@ -79,10 +91,11 @@ p + h3 {
 }
 
 .sidebar-group-items li {
-	font-size: 0.97rem;
+	font-size: 0.91rem;
 	
 	a {
 		font-weight: 400 !important;
+		line-height: 1.5;
 		
 		&.active {
 			font-weight: 600 !important;
@@ -95,7 +108,7 @@ p + h3 {
 	font-size: 20px;
 	
 	margin-top: 8px;
-	margin-bottom: 64px;
+	margin-bottom: 36px;
 }
 
 .content {
