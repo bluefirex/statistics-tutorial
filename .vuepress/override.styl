@@ -1,21 +1,25 @@
 $accentColor = #056dd2
 $codeBgColor = #171A23
 
-$contentFont = "GT Walsheim Pro"
-$uiFont = "GT Pressura"
+$contentFont = "Univers"
+$uiFont = "Univers"
 
 body {
 	background: #fafaf9
 	font-family: $uiFont !important;
-	letter-spacing: 0.02rem;
+	// letter-spacing: 0.02rem;
 }
 
 h1 {
-	font-weight: 600 !important;
+	font-weight: 700 !important;
 	font-size: 2.6rem !important;
 	letter-spacing: -0.9px;
+	
+	padding-left: 16px !important;
+	padding-right: 16px !important;
+	padding-top: 7px !important;
+	padding-bottom: 4px !important;
 
-	padding: 8px 16px !important;
 	margin-top: 96px !important;
 
 	color: #fff;
@@ -71,14 +75,18 @@ p + h3 {
 
 .sidebar-heading {
 	font-weight: 500;
-	font-size: 1.4rem;
+	font-size: 1.32rem;
 }
 
 .sidebar-group-items li {
-	font-size: 1.0rem;
+	font-size: 0.97rem;
 	
 	a {
 		font-weight: 400 !important;
+		
+		&.active {
+			font-weight: 600 !important;
+		}
 	}
 }
 
@@ -87,7 +95,7 @@ p + h3 {
 	font-size: 20px;
 	
 	margin-top: 8px;
-	margin-bottom: 48px;
+	margin-bottom: 64px;
 }
 
 .content {
