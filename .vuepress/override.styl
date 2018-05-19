@@ -1,9 +1,12 @@
 $accentColor = #056dd2
 $codeBgColor = #171A23
 
+$contentFont = "GT Walsheim Pro"
+$uiFont = "GT Pressura"
+
 body {
 	background: #fafaf9
-	font-family: GT Pressura !important;
+	font-family: $uiFont !important;
 	letter-spacing: 0.02rem;
 }
 
@@ -25,11 +28,33 @@ h1 {
 	}
 }
 
+p + h2,
+p + h3 {
+	margin-top: 56px;
+}
+
+.home .hero + .content {
+	margin-top: 96px;
+}
+
+.home .hero h1 {
+	font-family: $contentFont;
+}
+
+.home .hero p {
+	margin-top: 0 !important;
+	margin-bottom: 64px !important;
+}
+
 .navbar {
 	background: hsl(hue($accentColor), 20%, 12%) !important;
 	color: #fff;
 	
 	a:hover {
+		color: #fff;
+	}
+	
+	a.router-link-active {
 		color: #fff;
 	}
 
@@ -66,6 +91,6 @@ h1 {
 }
 
 .content {
-	font-family: GT Walsheim Pro !important;
+	font-family: $contentFont !important;
 	letter-spacing: 0px;
 }
