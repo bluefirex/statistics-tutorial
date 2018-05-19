@@ -6,8 +6,30 @@ pageClass: definition-page
 
 Jeder Datensatz unterliegt einer sogenannten Verteilung. Sie gibt an, wie die Häufigkeiten oder andere Messwerte in deinem Datensatz vorkommen und kann symmetrisch aber auch z.B. links- oder rechtsschief sein.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+### Wozu braucht man das?
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Verteilungen sind immer nur theoretische Modelle, die möglichst nah an der Realität sein sollen. Es wird angenommen, dass sie nicht beobachteten Verteilungen also möglichst ähnlich sind. Ausgehend von der Annahme, um welche Verteilung es sich bei einem Merkmal handelt, werden Annahmen über die Grundgesamtheit gemacht (Konfidenzintervalle, Tests, …).
 
-`// TODO`
+## Gaußsche Normalverteilung
+
+$$
+    \mathcal{N}(\mu, \sigma^2)
+$$
+
+| Eigenschaften         | |
+|-------------          |-|
+| Träger                | $\mathcal{T}_X = \mathbb{R}$  |
+| Erwartungswert $E(X)$ | $\mu$                         |
+| Median                | $\mu$                         |
+| Modus                 | $\mu$                         |
+| Varianz               | $\sigma^2$                    |
+
+
+| Parameter             | |
+| ---------             |-|
+| Erwartungswert        | $\mu \in \mathbb{R}$      |
+| Varianz               | $\sigma^2 > 0$            |
+
+### Visualisierung
+
+<illustration-normal-distribution />
