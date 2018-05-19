@@ -1,0 +1,8 @@
+{
+	"name": "Statistics Tutorial",
+	"short_name": "bfxStatTutorial",
+	"description": "A handy guide to statistics.",
+	"start_url": ".",
+	"display": "minimal-ui",
+	"background_color": "#fff"
+}

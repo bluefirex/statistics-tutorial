@@ -1,0 +1,28 @@
+{
+  "name": "statistics-vuepress",
+  "version": "1.0.0",
+  "description": "Statistics Tutorial",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluefirex/statistics-tutorial.git"
+  },
+  "keywords": [
+    "statistics",
+    "tutorial"
+  ],
+  "author": "Benjamin Schmidt <git@bfx.re>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluefirex/statistics-tutorial/issues"
+  },
+  "homepage": "https://github.com/bluefirex/statistics-tutorial#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vuepress": "^0.8.4"
+  }
+}
