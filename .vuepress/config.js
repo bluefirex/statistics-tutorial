@@ -30,8 +30,8 @@ module.exports = {
 					title: 'Grundlagen',
 					collapsable: true,
 					children: [
-						'/lageparameter',
-						'/verteilungen',
+						'/grundlagen/lageparameter',
+						'/grundlagen/verteilungen',
 					]
 				}
 			]
