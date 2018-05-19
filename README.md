@@ -3,6 +3,7 @@ home: true
 footer: Created by bluefirex.com  ·  2018
 actionText: Los geht's →
 actionLink: /grundlagen/
+heroImage: /logo.svg
 ---
 
 ## Was ist das?
