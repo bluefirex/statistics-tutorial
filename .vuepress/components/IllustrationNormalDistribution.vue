@@ -106,9 +106,11 @@
 			},
 
 			update() {
-				this.$refs.sigma.update()
-				this.$refs.sigma_squared.update()
-				this.$refs.mu.update()
+				this.$nextTick().then(_ => {
+					this.$refs.sigma.update()
+					this.$refs.sigma_squared.update()
+					this.$refs.mu.update()
+				})
 
 				// this.$refs.chart.startChart() FIXME
 			}
