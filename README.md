@@ -31,3 +31,25 @@ Du findest weitere Projekte von mir [in meinem Portfolio](https://bluefirex.com)
 ## Ich habe einen Fehler gefunden!
 
 Großartig! Du kannst jede Seite via GitHub editieren. Klicke dazu einfach auf den Editieren-Link auf der jeweiligen Seite. Alternativ melde den Fehelr auf [GitHub Issues](https://github.com/bluefirex/statistics-tutorial/issues).
+
+## Wie kann ich hier etwas editieren?
+
+Du hast dafür zwei Möglichkeiten:
+
+1. **Auf GitHub direkt.** Dabei wird ein Fork erstellt, du editierst jedoch ausschließlich im Browser. Klicke dazu einfach auf den Editieren-Link unter einer Seite.
+
+2. **Forken und lokal ausführen.** (empfohlen) So kannst du Änderungen direkt live testen. So geht's:
+
+    1. Auf [GitHub](https://github.com/bluefirex/statistics-tutorial) einen Fork erzeugen.
+    
+    2. Git klonen: `git clone <url-deines-forks>`
+    
+    3. Falls noch nicht geschehen, yarn installieren: `sudo npm i -g yarn` (NPM vorausgesetzt)
+
+    4. Abhängigkeiten installieren: `yarn install`
+
+    5. Ausführen: `yarn dev`. Dir wird eine URL angezeigt, unter der du nun deine lokale Version aufrufen kannst. Wenn du nun Änderungen machst, aktualisiert sich die Seite automatisch.
+    
+    6. Wenn du fertig bist: `yarn build`
+
+    7. Erstelle nun einen Commit (inklusive dem gesamten Ordner `/docs`!) und einen Pull Request.
