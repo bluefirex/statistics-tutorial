@@ -1,13 +1,15 @@
 <template>
 	<div class="illustration-normal-distribution">
 		<div class="chart">
-			<vue-frappe id="gauss-1" ref="chart"
-				:labels="this.values[0]"
-			    type="axis-mixed"
-			    :height="300"
-			    :colors="['#056dd2']"
-			    :yRegions="[{ label: 'Test', start: 0, end: 0.1, options: { labelPos: 'left' }}]"
-			    :dataSets="[{ chartType: 'line', values: this.values[1] }]" />
+			<ClientOnly>
+				<component :is="chart_component" id="gauss-1" ref="chart"
+					:labels="this.values[0]"
+				    type="axis-mixed"
+				    :height="300"
+				    :colors="['#056dd2']"
+				    :yRegions="[{ label: 'Test', start: 0, end: 0.1, options: { labelPos: 'left' }}]"
+				    :dataSets="[{ chartType: 'line', values: this.values[1] }]" />
+			</ClientOnly>
 		</div>
 
 		<div class="controls">
@@ -74,6 +76,10 @@
 					mean,
 					stdDev
 				]
+			},
+
+			chart_component() {
+				return () => import('vue2-frappe/src/components/Charts/Chart.vue')
 			}
 		},
 
