@@ -37,13 +37,7 @@
 </template>
 
 <script>
-	import VueSlider from 'vue-slider-component'
-
 	export default {
-
-		components: {
-			VueSlider
-		},
 
 		data() {
 			return {

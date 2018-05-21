@@ -21,8 +21,6 @@
 </template>
 
 <script>
-	import VueSlider from 'vue-slider-component'
-
 	export default {
 		props: {
 			values: {
@@ -40,10 +38,6 @@
 				required: false,
 				default: false
 			}
-		},
-
-		components: {
-			VueSlider
 		},
 
 		data() {

@@ -49,6 +49,14 @@ module.exports = {
 		}
 	},
 
+	configureWebpack: (config, isServer) => {
+		if (isServer) {
+			config.resolve.alias['@vue-slider'] = 'vue-slider-component/src/vue2-slider.vue'
+		} else {
+			config.resolve.alias['@vue-slider'] = 'vue-slider-component'
+		}
+	},
+
 	markdown: {
 		config: (md) => {
 			md.use(require('markdown-it-katex'))
