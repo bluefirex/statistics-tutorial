@@ -7,7 +7,9 @@ module.exports = {
 	dest: 'docs',
 
 	head: [
-		['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }]
+		['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }],
+		['link', { rel: 'stylesheet', href: 'https://gidix.de/fonts/univers/stylesheet.css' }],
+		['link', { rel: 'stylesheet', href: 'https://gidix.de/fonts/brownstd/stylesheet.css' }],
 	],
 
 	themeConfig: {

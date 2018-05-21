@@ -21,10 +21,10 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f6fa9fe3e77e7a2a4d2b2fccb93b6595"
+    "revision": "459ff8ae3a99076d4089d18e2dee3f95"
   },
   {
-    "url": "assets/css/0.styles.a6fdb001.css",
+    "url": "assets/css/0.styles.2301af47.css",
     "revision": "8001a775d7927b25c29dd95278487f32"
   },
   {
@@ -32,100 +32,96 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/1.7afa97cf.js",
-    "revision": "9db4824d9cc568e06ef4348a8229ad55"
+    "url": "assets/js/1.260b2a8a.js",
+    "revision": "a39bd1311652bf71aa3b146ba1c1b580"
   },
   {
-    "url": "assets/js/10.d2d03e49.js",
-    "revision": "be6c8df5fe3b70243ae254a86261d8d5"
+    "url": "assets/js/10.6b64461d.js",
+    "revision": "0ee9c2f03924c46933e73420ae1f17b6"
   },
   {
-    "url": "assets/js/11.c17e556a.js",
-    "revision": "40fbaaade67269239be5b11b00431d72"
+    "url": "assets/js/11.465270c2.js",
+    "revision": "70a1892f51cad01eb45d952064a95756"
   },
   {
-    "url": "assets/js/12.e5fdf3ef.js",
-    "revision": "da238fcd93073ceddb0c3c9163a8e3cb"
+    "url": "assets/js/12.b1edffce.js",
+    "revision": "30810983e7aae49ad9413a0dbcc5f726"
   },
   {
-    "url": "assets/js/13.23695154.js",
-    "revision": "451d73307c370386e8404003bbbbc297"
+    "url": "assets/js/13.40706743.js",
+    "revision": "252e509b4c5190d979bcbbf1665270d8"
   },
   {
-    "url": "assets/js/14.8b1ea592.js",
-    "revision": "0a74c12810f0b4eb4654051ff341109a"
+    "url": "assets/js/14.9fc8ded3.js",
+    "revision": "d679bd743e19f85d256605fc60cf44da"
   },
   {
-    "url": "assets/js/15.5ee4a5d4.js",
-    "revision": "155b0ace64ad31d79b75993aec57c4fd"
+    "url": "assets/js/15.fc766262.js",
+    "revision": "4ad1366eb8f01b2ca8341353ea860a90"
   },
   {
-    "url": "assets/js/16.28a3ce83.js",
-    "revision": "8c9ad729b6b842338dc9366b00c01552"
+    "url": "assets/js/2.6179ab40.js",
+    "revision": "7884d2ac69abf8ee59bb9ab228822a0d"
   },
   {
-    "url": "assets/js/2.2653b49b.js",
-    "revision": "e155e766b2f56cdbae959a40b67f7b35"
+    "url": "assets/js/3.dccf0689.js",
+    "revision": "83a061bebf309ea9538a21d91338a8f3"
   },
   {
-    "url": "assets/js/3.e2b2dfac.js",
-    "revision": "2787ce15b08ac12203cd11eda0e22602"
+    "url": "assets/js/4.608a5232.js",
+    "revision": "a1c73df8c40adac7bd90f5ffe3b994ef"
   },
   {
-    "url": "assets/js/4.cde6cbd9.js",
-    "revision": "90ec2a6366c7de9e4ec795c5f4604c06"
+    "url": "assets/js/5.f2818367.js",
+    "revision": "2bbd03efbcb25e5a0d0359b0780d4c15"
   },
   {
-    "url": "assets/js/5.29220ef6.js",
-    "revision": "55e740bdada677ae1c0dc936b074fdda"
+    "url": "assets/js/6.f63262de.js",
+    "revision": "54b2f538d09db8b7cabfc80ef6dbaba9"
   },
   {
-    "url": "assets/js/6.90bcb11c.js",
-    "revision": "380d0befcb22d5efa99e9cdc490a411d"
+    "url": "assets/js/7.207ff01e.js",
+    "revision": "99220754a28c40d7d8d1680469d58c08"
   },
   {
-    "url": "assets/js/7.a77fb056.js",
-    "revision": "212f5d71a4ca712fb2a965b881fbbef4"
+    "url": "assets/js/8.f8c09588.js",
+    "revision": "b6646c1e39b3db1812dd09f2e42b412a"
   },
   {
-    "url": "assets/js/8.1d28a885.js",
-    "revision": "337b0ebc74d536d337f35e68d98fce56"
+    "url": "assets/js/9.9a337e03.js",
+    "revision": "e74d440e55089a43d1d07373209aa563"
   },
   {
-    "url": "assets/js/9.0550f65e.js",
-    "revision": "992511e72a67c319a2250f78501563d9"
-  },
-  {
-    "url": "assets/js/app.0474a315.js",
-    "revision": "5ee36b870434d641bfe8820f0d0ff3b3"
+    "url": "assets/js/app.6c0f3b5a.js",
+    "revision": "d277772a0518b88651483b43c28be63b"
   },
   {
     "url": "aufgaben/index.html",
-    "revision": "9a105ecc79a851e5b66143b1031b9082"
+    "revision": "3ed004472b40ae873a17033b4aa30624"
   },
   {
     "url": "grundlagen/index.html",
-    "revision": "483a1019a3f60c2f669c8a57bf942c80"
+    "revision": "614eee8b90ea062494e4219cc783b730"
   },
   {
     "url": "grundlagen/lageparameter.html",
-    "revision": "a2b685fce1f432b1b21fe292cef4f23b"
+    "revision": "f3b8b2ed8c96cac651e344f0828c8266"
   },
   {
     "url": "grundlagen/streuungsparameter.html",
-    "revision": "21c18890df4c40310062bb1814aaf486"
+    "revision": "b505453ecf8a23ba61f6b25738ff4c60"
   },
   {
     "url": "grundlagen/verteilungen.html",
-    "revision": "6c67229409d0974bb252ff7403185e1d"
+    "revision": "76869eb5a0b29395559cd555702a0d92"
   },
   {
     "url": "grundlagen/zufallsvariablen.html",
-    "revision": "c773ca53cf16efcfc7b316ef86a23cf2"
+    "revision": "9de066ed4616d0c1f4e2dec6ea2f845e"
   },
   {
     "url": "index.html",
-    "revision": "30f65f4113f37392ac4b81535145bcc6"
+    "revision": "356f1ea2fa9a89774846f8ac82d4cb83"
   },
   {
     "url": "logo.svg",
