@@ -18,7 +18,7 @@
 
 		<div class="legend">
 			<div class="item left-extreme">
-				<label>Ausreiser Links:</label> {{ left_extreme }}
+				<label>Ausreißer Links:</label> {{ left_extreme }}
 			</div>
 
 			<div class="item total">
@@ -30,7 +30,7 @@
 			</div>
 
 			<div class="item right-extreme">
-				<label>Ausreiser Rechts:</label> {{ right_extreme }}
+				<label>Ausreißer Rechts:</label> {{ right_extreme }}
 			</div>
 		</div>
 	</div>
