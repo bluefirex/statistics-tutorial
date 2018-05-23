@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d4f4d42e9b5d1ebb1e3ce63182ae0d3d"
+    "revision": "442d244f08b313d82f3b278f28f0f168"
   },
   {
     "url": "assets/css/0.styles.2301af47.css",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "revision": "30810983e7aae49ad9413a0dbcc5f726"
   },
   {
-    "url": "assets/js/13.40706743.js",
-    "revision": "252e509b4c5190d979bcbbf1665270d8"
+    "url": "assets/js/13.4d70bba7.js",
+    "revision": "9047f380539947e169f832bbc2f07acc"
   },
   {
     "url": "assets/js/14.9fc8ded3.js",
@@ -92,36 +92,36 @@ self.__precacheManifest = [
     "revision": "5700623cc12d820cc07af20d935d19ae"
   },
   {
-    "url": "assets/js/app.18aaf178.js",
-    "revision": "2b150dbe1937f11e32d5107aa2e10ef5"
+    "url": "assets/js/app.a9b3f4a2.js",
+    "revision": "58e5f306efa7d4de6385e0b375754d54"
   },
   {
     "url": "aufgaben/index.html",
-    "revision": "9e90e12ba45a1c0b31560b2d90fb0686"
+    "revision": "67a91fc5cad53b2ff73653a0a88702c5"
   },
   {
     "url": "grundlagen/index.html",
-    "revision": "fc2830dfc801f4e666d6c70bb43ffc2c"
+    "revision": "068d3caf86181a740a9a0503bea1f401"
   },
   {
     "url": "grundlagen/lageparameter.html",
-    "revision": "8b82da6ab86e99afae20e741fa1c11c7"
+    "revision": "ddd788972fb5a486a3c7b5ad6fc47f8f"
   },
   {
     "url": "grundlagen/streuungsparameter.html",
-    "revision": "0ffc32718fd140ea905c75a89ce07aba"
+    "revision": "c92288cc2e04c3777ad3ff34b6161c07"
   },
   {
     "url": "grundlagen/verteilungen.html",
-    "revision": "8320b2b584d06d7ec5ea91818c892c18"
+    "revision": "cc7924538b65b2e0f7da102596700a25"
   },
   {
     "url": "grundlagen/zufallsvariablen.html",
-    "revision": "f9f501f13f73fe1bf70c118e365d34b9"
+    "revision": "8cb1723c6b533cf77cc26885d06dd2cc"
   },
   {
     "url": "index.html",
-    "revision": "fa8627f0fb82688c4bf28064a939390a"
+    "revision": "a6ab05669b3e170fcb410317623dbbca"
   },
   {
     "url": "logo.svg",
