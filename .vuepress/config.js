@@ -46,6 +46,13 @@ module.exports = {
 						'/grundlagen/zufallsvariablen',
 						'/grundlagen/verteilungen',
 					]
+				},
+				{
+					title: 'Erweitert',
+					collapsable: true,
+					children: [
+						'/erweitert/boxplot'
+					]
 				}
 			]
 		}

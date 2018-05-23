@@ -1,5 +1,7 @@
-import {Tabs, Tab} from 'vue-tabs-component'
 import VueSlider from '@vue-slider'
+import ElementUI from 'element-ui'
+
+require('element-ui/lib/theme-chalk/index.css')
 
 export default ({
 	Vue,
@@ -7,7 +9,6 @@ export default ({
 	router,
 	siteData
 }) => {
-	Vue.component('tabs', Tabs)
-	Vue.component('tab', Tab)
 	Vue.component('vue-slider', VueSlider)
+	Vue.use(ElementUI)
 }
