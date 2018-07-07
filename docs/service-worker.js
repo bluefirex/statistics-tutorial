@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "3e1af643dba01692ab37ade588aa17e0"
+    "revision": "80d2867d8c51a64a9f1ec2090ac0df7f"
   },
   {
     "url": "assets/css/0.styles.4529d7e7.css",
@@ -40,112 +40,152 @@ self.__precacheManifest = [
     "revision": "9d096f9425751797519d0e513f39f251"
   },
   {
-    "url": "assets/js/10.6078c4b4.js",
-    "revision": "938cb35f496652f06eac43210f7f7fd9"
+    "url": "assets/js/10.b8a15426.js",
+    "revision": "7b9b04e111544840564c03691bc9b739"
   },
   {
-    "url": "assets/js/11.aad6f29e.js",
-    "revision": "8c3fd89aaea2a9a02ba42de622dce48e"
+    "url": "assets/js/11.4d328ceb.js",
+    "revision": "dc53949c4bda813ff1d00ce6dcef3f0c"
   },
   {
-    "url": "assets/js/12.90b66245.js",
-    "revision": "2202407a0b0710e1da8a4d82d1bc847d"
+    "url": "assets/js/12.2faebc7e.js",
+    "revision": "77472e035b49e6a923b2beac3f0b427b"
   },
   {
-    "url": "assets/js/13.1d48c347.js",
-    "revision": "d595429415ebe967973cdb07cd0515d2"
+    "url": "assets/js/13.7d014c2a.js",
+    "revision": "3153e82de8dabc15838b91dd4ce291b1"
   },
   {
-    "url": "assets/js/14.9be4d25b.js",
-    "revision": "08ec61ec8f9ebc461800ce5823cb4ff5"
+    "url": "assets/js/14.a71f458b.js",
+    "revision": "16c1dfc6cb9ff171a7da74141f05f877"
   },
   {
-    "url": "assets/js/15.c702d9af.js",
-    "revision": "108cfb3562bfcbb02e64069c06aa738f"
+    "url": "assets/js/15.f4a43dd8.js",
+    "revision": "2183449155a45cccf81fb79b55098c94"
   },
   {
-    "url": "assets/js/16.7f8e1dd2.js",
-    "revision": "46356725d887c05e192adc8347749743"
+    "url": "assets/js/16.146b7f47.js",
+    "revision": "7fcfa771357f577ffd9a797f0213c274"
   },
   {
-    "url": "assets/js/17.226f56eb.js",
-    "revision": "364bcf1c6ddf0670e6cd6271612a423f"
+    "url": "assets/js/17.e152c00f.js",
+    "revision": "70ec7b5558d16c4f2136f8cb1ac104c5"
   },
   {
-    "url": "assets/js/18.890e9a98.js",
-    "revision": "48b8106c694faf3259199bda0d1d89df"
+    "url": "assets/js/18.05a1a948.js",
+    "revision": "eba07d90743eee279c18c04cd3b0bbee"
   },
   {
-    "url": "assets/js/19.59094501.js",
-    "revision": "5883cfdd3c9bd9d04782176dc2cef372"
+    "url": "assets/js/19.5abe048f.js",
+    "revision": "7b16cbb1bf6ee3b71fb1a23c4db8f1f7"
   },
   {
     "url": "assets/js/2.4272c675.js",
     "revision": "672ab74f9b6bce3ac409e05098964b9a"
   },
   {
+    "url": "assets/js/20.b84d3bef.js",
+    "revision": "12404a512f5366f52f703ce1b53be272"
+  },
+  {
+    "url": "assets/js/21.3c505aaa.js",
+    "revision": "02d5a9c2323ea6d3b3fdfe9916493cdb"
+  },
+  {
+    "url": "assets/js/22.6b1d0dbe.js",
+    "revision": "3e26e397db6fbb92f10b0e50f546cbe1"
+  },
+  {
+    "url": "assets/js/23.a968d1b4.js",
+    "revision": "22b290ea1d2e5d730ff3a8b333a3bcf0"
+  },
+  {
+    "url": "assets/js/24.f86bedf5.js",
+    "revision": "13fc1aa2dc6ddbfca4e1a63d2e7e96c9"
+  },
+  {
     "url": "assets/js/3.f9889f9c.js",
     "revision": "bf3ff905afeb84baa1b839a5ab72e76b"
   },
   {
-    "url": "assets/js/4.da565a3e.js",
-    "revision": "f5d5c8735cf6a66c2adfb48c01e6a230"
+    "url": "assets/js/4.d8ab1262.js",
+    "revision": "66b8e951c6c5c4a4ea1516ff1f9c4e9f"
   },
   {
-    "url": "assets/js/5.ae3a0354.js",
-    "revision": "c124d187a01110d6ef14bba858b901b8"
+    "url": "assets/js/5.02b81305.js",
+    "revision": "e23d7aa7ad388539672293ca1a946d7b"
   },
   {
-    "url": "assets/js/6.18d541c4.js",
-    "revision": "9b0faf9dd8445a6b64e3151604418e68"
+    "url": "assets/js/6.be27cfc4.js",
+    "revision": "1df9550b29e665c329065379e0bdf48f"
   },
   {
-    "url": "assets/js/7.b5e665a7.js",
-    "revision": "bdd2198281b110b38cdf9af11a121546"
+    "url": "assets/js/7.d94ee6ba.js",
+    "revision": "82a79e015a33984b582889225b0ef098"
   },
   {
-    "url": "assets/js/8.dd2bc649.js",
-    "revision": "c338ed72a9c8372ebaf437d4e595c72a"
+    "url": "assets/js/8.2ebe24c6.js",
+    "revision": "a758ba592a7178d081d66f4304e68b21"
   },
   {
-    "url": "assets/js/9.de1b3dee.js",
-    "revision": "cdefa03bea1125c655b8d84fdd004db0"
+    "url": "assets/js/9.97f15a60.js",
+    "revision": "5c8aa32ad42cb447adbdec51775683ee"
   },
   {
-    "url": "assets/js/app.b07636d6.js",
-    "revision": "ce791e63f31d394d80f50cc05c45569e"
+    "url": "assets/js/app.d1ccb54a.js",
+    "revision": "7789560c1465518a3e6a71b748cfa370"
   },
   {
     "url": "aufgaben/index.html",
-    "revision": "0ba423b3df27c7debfc2b6de7099d025"
+    "revision": "5d9273ea0734076a64b2f21ef96a6c3f"
   },
   {
     "url": "erweitert/boxplot.html",
-    "revision": "00c3564371ea330f48e7cde851bf84c4"
+    "revision": "d1403425be9475daf9d14f57eea5c82d"
+  },
+  {
+    "url": "erweitert/gesetz-der-großen-zahlen.html",
+    "revision": "68bd98e88e043dcca1eb4fe8e10e4e0c"
+  },
+  {
+    "url": "erweitert/hauptsatz-der-statistik.html",
+    "revision": "9dd85dd7a0a37cbf217accdec9479f71"
+  },
+  {
+    "url": "erweitert/konfidenzintervalle.html",
+    "revision": "27f25e96d7a7f6fd74251ab2ba4ba85e"
+  },
+  {
+    "url": "erweitert/parameterschaetzung.html",
+    "revision": "6b7896fafd1b6efcba5a12a4df55f8df"
+  },
+  {
+    "url": "erweitert/zentraler-grenzwertsatz.html",
+    "revision": "b29a7bbdf79039f9f736fb71883418c5"
   },
   {
     "url": "grundlagen/index.html",
-    "revision": "a557ba3d854db977eb412596dd993da1"
+    "revision": "66b54f9f3fcdd92fc35f3cbf6b310e29"
   },
   {
     "url": "grundlagen/lageparameter.html",
-    "revision": "33363de81ec6341ceb53bcc373748de3"
+    "revision": "e7dabb696fa61398d87cef6fbbab65e9"
   },
   {
     "url": "grundlagen/streuungsparameter.html",
-    "revision": "01fe1ec7e89c9a8d3b34565b4966bfb5"
+    "revision": "f09e8243f82dc462e2a951c75d98c4f6"
   },
   {
     "url": "grundlagen/verteilungen.html",
-    "revision": "5d1320af9d1f705655dd1f9696426a52"
+    "revision": "f37e1fc7ce076474039f93ac23bdb77f"
   },
   {
     "url": "grundlagen/zufallsvariablen.html",
-    "revision": "38dadb2dd2faddc024e98074b892b54a"
+    "revision": "66ec9246906713997e745ba540477270"
   },
   {
     "url": "index.html",
-    "revision": "5159bd5e538a89cf290f9ddedaef5f8c"
+    "revision": "32262f3b4b76cba28e0a5591cf31ccaf"
   },
   {
     "url": "logo.svg",
