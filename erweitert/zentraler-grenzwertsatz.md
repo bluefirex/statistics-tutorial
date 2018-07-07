@@ -18,3 +18,5 @@ $$
 ::: tip Faustregel
 Ab $n > 30$ sind unabhängig von der Verteilung wahrscheinlichkeitsbehaftete Aussagen über den Erwartungswert möglich.
 :::
+
+Dieser Satz gilt auch bei Abschwächung der Anname, dass die Verteilungen identisch sind.

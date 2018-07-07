@@ -23,6 +23,8 @@ $$
 
 *Das bedeutet*: $P$ konvergiert in Wahrscheinlichkeit gegen $\mu$ mit wachsender Größe $n$.
 
+Dieser Satz gilt auch bei Abschwächung der Annahme, dass die Werte unabhängig sind.
+
 
 ## Bernoulli
 

@@ -16,3 +16,5 @@ Für unabhängig und identisch wie $X$ verteile Werte konvergiert die Verteilung
 ::: tip Das klappt auch umgekehrt:
 Wenn die empirische Verteilung bei großem Umfang (großes $n$) schlecht zu einer theoretischen Verteilung passt, ist die theoretische Verteilung schlecht ausgesucht.
 :::
+
+Dieser Satz gilt auch bei Abschwächung der Annahme, dass die Werte unabhängig sind.
