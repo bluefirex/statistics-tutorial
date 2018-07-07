@@ -57,12 +57,22 @@ Für $\{1, 1, 2, 2\}$ wäre der Modus also 1 und 2.
 
 Der Erwartungswert ist die gewichtete Summe einer Zufallsvariablen:
 
+### Diskret
+
 $$
     E(X) = \sum_{j \geq 1}x_j \cdot p_j
 $$
 
 $$
     E(X) = \sum_{j \geq 1}x_j \cdot f(x_j)
+$$
+
+*Das bedeuetet*: $x_j$ ist der Datenpunkt, $p_j$ bzw. $f(x_j)$ ist die Wahrscheinlichkeit, dass dieser Datepunkt auftaucht.
+
+### Stetig
+
+$$
+    E(X) = \int_{-\infty}^{\infty}x f(x) dx
 $$
 
 ::: tip Tipp:
