@@ -51,7 +51,10 @@ module.exports = {
 					title: 'Erweitert',
 					collapsable: true,
 					children: [
-						'/erweitert/boxplot'
+						'/erweitert/boxplot',
+						'/erweitert/gesetz-der-großen-zahlen',
+						'/erweitert/hauptsatz-der-statistik',
+						'/erweitert/zentraler-grenzwertsatz',
 					]
 				}
 			]
