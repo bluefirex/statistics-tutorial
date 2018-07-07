@@ -44,5 +44,10 @@ export default ({
 	})
 
 	Vue.prototype.$statistics = Statistics
-	window.Statistics = Statistics
+	
+	try {
+		// This will fail while building because the renderer doesn't have a window
+		// It's completely irrelevant, though
+		window.Statistics = Statistics
+	} catch (e) { /* cry */ }
 }
