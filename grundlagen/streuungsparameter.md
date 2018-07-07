@@ -103,3 +103,7 @@ $$
 * Wenn $X$ und $Y$ stochastisch unabhängig sind, so besteht auch kein Zusammenhang zwischen ihnen. Es gilt also $\rho = 0$.
 * Das Gegenteil gilt nicht: Nur, weil $\rho = 0$ gilt, müssen sie nicht unkorreliert sein.
 :::
+
+### Beispiel
+
+<example-covariance />
