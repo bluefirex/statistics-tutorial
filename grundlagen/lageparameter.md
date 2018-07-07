@@ -53,6 +53,22 @@ Für $\{1, 2, 2, 3\}$ wäre der Modus also 2.<br />
 Für $\{1, 1, 2, 2\}$ wäre der Modus also 1 und 2.
 :::
 
+## Erwartungswert
+
+Der Erwartungswert ist die gewichtete Summe einer Zufallsvariablen:
+
+$$
+    E(X) = \sum_{j \geq 1}x_j \cdot p_j
+$$
+
+$$
+    E(X) = \sum_{j \geq 1}x_j \cdot f(x_j)
+$$
+
+::: tip Tipp:
+Für manche Situationen, z.B. den Wurf eines Würfels, kann eine gleiche Wahrscheinlichkeitsverteilung angenommen werden. Das heißt, $p_j$ bzw. $f(x_j)$ liefern immer 1.
+:::
+
 ## Beispiel
 
 <example-location-parameters />
