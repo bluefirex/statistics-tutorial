@@ -55,6 +55,8 @@ module.exports = {
 						'/erweitert/gesetz-der-großen-zahlen',
 						'/erweitert/hauptsatz-der-statistik',
 						'/erweitert/zentraler-grenzwertsatz',
+						'/erweitert/parameterschaetzung',
+						'/erweitert/konfidenzintervalle'
 					]
 				}
 			]
