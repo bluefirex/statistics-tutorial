@@ -8,9 +8,9 @@ Streuungsparameter geben an, wie zerstreut deine Daten sind und helfen bei der B
 
 ## Varianz
 
-Die Varianz gibt an … `TODO`
+Die Varianz gibt an, wie sehr die Daten streuen. Eine besonders große Varianz deutet auf eine sehr große Streuung hin.
 
-### Diskrete Zufallsvariablen
+### Diskret
 
 Diese Formel gilt für diskrete, mindestens intervallskalierte oder binäre Zufallsvariablen.
 
@@ -20,7 +20,7 @@ $$
 
 *Das heißt:* Die Varianz von X ist die summierte Differenz zwischen den Werten und dem arithmetischen Mittel ($x_j - \mu$) quadriert in Verbindung mit der Auftrittswahrscheinlichkeit des Wertes ($f(x_j)$).
 
-### Stetige Zufallsvariablen
+### Stetig
 
 Diese Formel gilt für stetige Zufallsvariablen.
 
@@ -32,19 +32,21 @@ $$
 
 ## Standardabweichung
 
-`TODO`
+Dieser Wert ist eine standardisierte Metrik zur Begutachtung der Streuung der Daten.
 
 $$
-    \sigma = +\sqrt{Var(x)}
+    \sigma^2 = +\sqrt{Var(x)}
 $$
 
 ## Standardisierung
 
-`TODO`
+Die Standardisierung hilft bei einigen Berechnungen von Wahrscheinlichkeit. Eine Standardisierung wird über diese Formel erreicht:
 
 $$
     Z = \frac{X - \mu_\mathcal{x}}{\sigma_\mathcal{x}}
 $$
+
+Dies resultiert in einem konstanten Erwartungswert und einer konstanten Varianz.
 
 $$
     E(Z) = 0
@@ -56,7 +58,16 @@ $$
 
 ## Quantile
 
-`TODO`
+Quantile definieren Grenzen, unter denen ein bestimmter Prozentsatz an Werten liegt. Möchtest du zum Beispiel eine Aussage treffen wie "*35% aller Bahnfahrer sind weiter gereist als 1.000km.*", wäre 1.000 km das 35%-Quantil, genannt *0.35-Quantil*.
+
+### Spezielle Quantile
+
+* Median: 0.5-Quantil
+* Terzile: p-Quantile für $p = \dfrac{1}{3}$ und $p = \dfrac{2}{3}$
+* Quartile: p-Quartile für $p = 0.25$ und $p = 0.75$
+* Quintile: *you get the idea…*
+* …
+* Perzentile: Alle p-Quartile für $0 \leq p \leq 1$ in $0.01$-Schritten
 
 ## Kovarianz
 
