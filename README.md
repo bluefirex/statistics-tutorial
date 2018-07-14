@@ -53,3 +53,12 @@ Du hast dafür zwei Möglichkeiten:
     6. Wenn du fertig bist: `yarn build`
 
     7. Erstelle nun einen Commit (inklusive dem gesamten Ordner `/docs`!) und einen Pull Request.
+
+## Changelog
+
+- **14. Juli 2018**: Häufigkeitstabellen, Spannweite, Interquartilsabstand
+- **7. Juli 2018**: Parameterschätzung, Erwartungswert, Varianz, Quartile, Kovarianz, Korrelationskoeffizient
+- **21. Mai 2018**: Bugfixes
+- **19. Mai 2018**: Erstveröffentlichung
+
+[Alle Änderungen ›](https://github.com/bluefirex/statistics-tutorial/commits/master)

@@ -29,3 +29,11 @@ Dieses Beispiel stammt aus der Probeklausur A, WS 2016/17 von Prof. Dr. Spieß [
     :y-labels="['altes Medikament', 'neues Medikament', 'Placebo']"
     :data="[[9, 24, 12], [3, 16, 14], [7, 25, 13]]"
     />
+
+## Empirische Chancen
+
+### Bedingte Chance
+
+
+
+### Relative Chance
