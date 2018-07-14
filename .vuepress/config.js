@@ -41,6 +41,7 @@ module.exports = {
 					title: 'Grundlagen',
 					collapsable: true,
 					children: [
+						'/grundlagen/haeufigkeitstabellen',
 						'/grundlagen/lageparameter',
 						'/grundlagen/streuungsparameter',
 						'/grundlagen/zufallsvariablen',
