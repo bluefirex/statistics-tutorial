@@ -136,11 +136,11 @@
 		methods: {
 			update() {
 				this.$nextTick().then(_ => {
-					this.$refs.covariance.update()
-					this.$refs.correlation.update()
+					if (this.$refs.covariance) this.$refs.covariance.update()
+					if (this.$refs.correlation) this.$refs.correlation.update()
 
-					this.$refs.dataX.forEach(d => d.update())
-					this.$refs.dataY.forEach(d => d.update())
+					if (this.$refs.dataX) this.$refs.dataX.forEach(d => d.update())
+					if (this.$refs.dataY) this.$refs.dataY.forEach(d => d.update())
 				})
 			}
 		}
