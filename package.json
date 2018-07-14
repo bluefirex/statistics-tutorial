@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Statistics Tutorial",
   "scripts": {
-    "dev": "vuepress dev",
+    "dev": "vuepress dev --host localhost",
     "build": "vuepress build"
   },
   "repository": {
