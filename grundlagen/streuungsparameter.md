@@ -6,6 +6,14 @@ pageClass: definition-page
 
 Streuungsparameter geben an, wie zerstreut deine Daten sind und helfen bei der Bestimmung der statistischen Signifikanz.
 
+## Spannweite
+
+Die Spannweite ist einfach nur die Differenz zwischen dem größten und dem kleinen Wert deiner Stichprobe. Sie gibt damit an, wie weit deine Werte gehen.
+
+$$
+    R = x_{max} - x_{min}
+$$
+
 ## Varianz
 
 Die Varianz gibt an, wie sehr die Daten streuen. Eine besonders große Varianz deutet auf eine sehr große Streuung hin.
