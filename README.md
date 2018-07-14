@@ -56,7 +56,7 @@ Du hast dafür zwei Möglichkeiten:
 
 ## Changelog
 
-- **14. Juli 2018**: Häufigkeitstabellen, Spannweite, Interquartilsabstand
+- **14. Juli 2018**: Häufigkeitstabellen, Spannweite, Interquartilsabstand, Relative Chance
 - **7. Juli 2018**: Parameterschätzung, Erwartungswert, Varianz, Quartile, Kovarianz, Korrelationskoeffizient
 - **21. Mai 2018**: Bugfixes
 - **19. Mai 2018**: Erstveröffentlichung
