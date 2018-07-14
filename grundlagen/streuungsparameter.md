@@ -69,6 +69,29 @@ Quantile definieren Grenzen, unter denen ein bestimmter Prozentsatz an Werten li
 * …
 * Perzentile: Alle p-Quartile für $0 \leq p \leq 1$ in $0.01$-Schritten
 
+### Interquartilsabstand
+
+Der Interquartilsabstand ist der Abstand zwischen dem 0,25-Quartil und dem 0,75-Quartil. So berechnest du ihn ($\lfloor a \rfloor$ bedeutet, $a$ abzurunden):
+
+1. Stichprobe sortieren. $x_{y}$ bezeichnet das $y$-Quartil. $n$ ist die Größe deiner Stichprobe.
+
+2. 0,25-Quartil bestimmen: $x_{0.25} = n \cdot 0.25$<br />
+   Wenn das Ergebnis nicht ganzzahlig ist, berechne das nächste ganzzahlige Quartil:
+
+    $$
+        x_{0.25} = x_{\lfloor n \cdot 0.25 + 1 \rfloor}
+    $$
+
+3. 0,75-Quartil bestimmen: $x_{0.75} = n \cdot 0.75$<br />
+    Wenn das Ergebnis nicht ganzzahlig ist, brechne das nächste ganzzahlige Quartil:
+
+    $$
+         x_{0.75} = x_{\lfloor n \cdot 0.75 + 1 \rfloor}
+    $$
+
+4. Subtrahiere die Werte: $IQA = x_{0.75} - x_{0.25}$.
+
+
 ## Kovarianz
 
 Die Koovarianz gibt an, ob hohe Werte zweier Stichproben mit hohen oder niedrigen Werten einhergehen oder gar kein Zusammenhang besteht.
